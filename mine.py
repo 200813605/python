@@ -5,9 +5,9 @@ import os
 
 steps = 0
 
-max_width = 30
-max_height = 30
-max_mines = 1000
+max_width = 10
+max_height = 10
+max_mines = 10
 field = [['X']*max_width for _ in range(max_height)]
 hideMines = True
 
